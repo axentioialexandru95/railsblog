@@ -1,3 +1,3 @@
-class AuthorController < BlogController
-	protect_from_forgery with: :exception
+class AuthorController < ApplicationController
+	before_action :authenticate_author!
 end
