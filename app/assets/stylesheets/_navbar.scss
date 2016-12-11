@@ -4,7 +4,7 @@
 	.navbar-brand {
 		font-weight: bolder;
 		.light{
-			font-weight: 300;
+			font-weight: 400;
 		}
 	}
 	.navbar-toggler {
@@ -22,6 +22,7 @@
 }
 
 .collapse-bg .card .list-group-item {
+	text-align: right;
 	padding: o;
 	border-radius: 0 !important;
 	border-color: black;
